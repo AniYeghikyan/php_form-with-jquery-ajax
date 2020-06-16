@@ -1,0 +1,39 @@
+body {
+	margin: 0;  padding: 0;
+}
+#frmContact {
+	width:610px; border-top:#F0F0F0 2px solid;background:#FAF8F8;margin: 0 auto;
+}
+.input-group {
+	margin-left: 5%;
+}
+input {
+	width: 90%;
+}
+#gender input, #language input {
+	width: 4%; margin-left: 5%;
+}
+#gender, #language  {
+ margin-left: 5%; margin-right: 5%;
+}
+#frmContact div{
+	margin-bottom: 15px;
+}
+#frmContact div label{
+	margin-left: 5px;
+}
+.demoInputBox{
+	padding:10px; border:#F0F0F0 1px solid; border-radius:4px;
+}
+.error{
+	background-color: #FF6600;border:#AA4502 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;
+}
+.success{
+	background-color: #12CC1A;border:#0FA015 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;
+}
+.info{
+	font-size:.8em;color: #FF6600;letter-spacing:2px;padding-left:5px;
+}
+.btnAction{
+	background-color:#FF6600;border:0;padding:10px 40px;color:#FFF;border:#F0F0F0 1px solid; border-radius:4px;display: block; margin: 0 auto;
+}
